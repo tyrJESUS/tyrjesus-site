@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>tyrJESUS | Meus Links</title>
   <style>
     body {
@@ -18,11 +18,13 @@
       width: 100%;
       max-width: 800px;
       margin: 30px auto 0;
+      aspect-ratio: 16/9;
     }
 
-    video {
+    iframe {
       width: 100%;
-      border: 2px solid #444;
+      height: 100%;
+      border: none;
       border-radius: 12px;
     }
 
@@ -74,15 +76,19 @@
   </style>
 </head>
 <body>
+
+  <!-- Player Vimeo -->
   <div class="video-container">
-    <video controls>
-      <source src="bg-video.mp4" type="video/mp4">
-      Seu navegador não suporta vídeo HTML5.
-    </video>
+    <iframe 
+      src="https://player.vimeo.com/video/1074331743?h=418d3b60bd&autoplay=1&title=0&byline=0&portrait=0" 
+      allow="autoplay; fullscreen; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
   </div>
 
+  <!-- Conteúdo principal -->
   <div class="content">
-    <img src="https://i.ibb.co/607ytjF0/your-image.jpg" alt="Foto de Perfil" class="profile-pic">
+    <img src="https://i.ibb.co/HDzrTC4/melly.jpg" alt="Foto de Perfil" class="profile-pic">
     <h1>tyrJESUS</h1>
     <div class="links">
       <a href="https://settings.gg/user/922057160" target="_blank">Minha CFG</a>
@@ -91,5 +97,6 @@
       <a href="https://instagram.com" target="_blank">Instagram</a>
     </div>
   </div>
+
 </body>
 </html>
